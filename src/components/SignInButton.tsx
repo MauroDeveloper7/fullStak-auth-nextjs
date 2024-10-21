@@ -13,6 +13,22 @@ const SignInButton = () => {
         <p className="text-sky-600">{session.user.name}</p>
         <Link
           href={"/api/auth/signout"}
+          className="flex gap-4 ml-auto text-green-600"
+        >
+          CREATE PRODUCT
+        </Link><Link
+          href={"/api/auth/signout"}
+          className="flex gap-4 ml-auto text-green-600"
+        >
+          CREATE USER
+        </Link><Link
+          href={"/api/auth/signout"}
+          className="flex gap-4 ml-auto text-green-600"
+        >
+          CREATE ORDER
+        </Link>
+        <Link
+          href={"/api/auth/signout"}
           className="flex gap-4 ml-auto text-red-600"
         >
           Sign Out
